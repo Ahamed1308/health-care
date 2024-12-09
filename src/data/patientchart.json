@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Oct, 2023",
+        "systolic": 120,
+        "diastolic": 110
+    },
+    {
+        "label": "Nov, 2023",
+        "systolic": 110,
+        "diastolic": 62
+    },
+    {
+        "label": "Dec, 2023",
+        "systolic": 160,
+        "diastolic": 110
+    },
+    {
+        "label": "Jan, 2024",
+        "systolic": 110,
+        "diastolic": 90
+    },
+    {
+        "label": "Feb, 2024",
+        "systolic": 150,
+        "diastolic": 70
+    },
+    {
+        "label": "Mar, 2024",
+        "systolic": 160,
+        "diastolic": 80
+    }   
+]
