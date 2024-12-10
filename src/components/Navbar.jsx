@@ -11,29 +11,29 @@ import more from '../assets/navbar-svg/more.png'
 
 const Navbar = () => {
   return (
-    <div className='flex gap-48 items-center  h-[72px] bg-white rounded-[70px]'>
+    <div className='flex gap-36 items-center  h-[72px] bg-white rounded-[70px]'>
         <div className='flex p-8'>
             <img src={TestLogo} alt='logo' className='h-12 w-52'/>
         </div>
         <div className='flex gap-6 items-center'>
-          <ul className='flex gap-10 text-sm w-[663px] h-16 items-center'>
-            <li className='flex gap-1'>
+          <ul className='flex gap-4 text-sm w-[663px] h-16 items-center '>
+            <li className='flex gap-1 cursor-pointer hover:bg-[#01F0D0] transistion duration-200 ease-out rounded-2xl px-4 py-2'>
               <img src={Overview} alt='img' className='w-4 h-[17px]'/>Overview
             </li>
-            <li className='flex gap-1'>
+            <li className='flex gap-1 cursor-pointer hover:bg-[#01F0D0] transistion duration-200 ease-out rounded-2xl px-4 py-2'>
               <img src={Patients} alt='img' className='w-24[px] h-[17px]'/>Patients
             </li>
-            <li className='flex gap-1'>
+            <li className='flex gap-1 cursor-pointer hover:bg-[#01F0D0] transistion duration-200 ease-out rounded-2xl px-4 py-2'>
               <img src={Schedule} alt='img' className='w-4 h-[17px]'/>Schedule
             </li>
-            <li className='flex gap-1'>
+            <li className='flex gap-1 cursor-pointer hover:bg-[#01F0D0] transistion duration-200 ease-out rounded-2xl px-4 py-2'>
               <img src={Message} alt='img' className='w-[19px] h-[17px]'/>Message
             </li>
-            <li className='flex gap-1'>
+            <li className='flex gap-1 cursor-pointer hover:bg-[#01F0D0] transistion duration-200 ease-out rounded-2xl px-4 py-2'>
               <img src={Transactions} alt='img' className='w-[22px] h-[17px]'/>Transactions
             </li>
           </ul>
-          <div className='flex items-center gap-2 p-8'>
+          <div className='flex items-center gap-2 p-8 ml-10'>
             <img src={doctor} alt='doctor' className='h-12' />
             <div className='flex gap-5'>
             <div>

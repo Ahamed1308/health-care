@@ -14,7 +14,7 @@ const BloodPressureChart = () => {
   const diagnosis = patientData.diagnosis_history[0];
   return (
     <>
-      <div className='h-[600px] w-[766px] border border-gray-300 bg-white rounded-lg p-5'>
+      <div className='h-[650px] w-[766px] border border-gray-300 bg-white rounded-lg p-5'>
         <h2 className='font-semibold text-xl py-2'>Diagnosis History</h2>
         <div className='h-[298px] w-[726px] bg-[#F4F0FE]'> 
           <h2 className='text-[18px] font-semibold px-4 py-2'>Blood Pressure</h2>
@@ -55,21 +55,21 @@ const BloodPressureChart = () => {
         </div>
         <div className='flex space-x-8 py-5'>
           <div className='w-56 h-56 p-4 bg-[#E0F3FA]'>
-            <img src={heart} className='h-24 w-24'/>
+            <img src={respiratory} className='h-24 w-24'/>
             <p className='text-[16px]'>Respiratory Rate</p>
-            <p className='text-3xl font-semibold'>{diagnosis.respiratory_rate.value}</p>
+            <p className='text-3xl font-semibold mb-4'>{diagnosis.respiratory_rate.value} bpm</p>
             <p>{diagnosis.respiratory_rate.levels}</p>
           </div>
           <div className='w-56 h-56 p-4 bg-[#FFE6E9]'>
             <img src={temperature} className='h-24 w-24'/>
             <p className='text-[16px]'>Temprature</p>
-            <p className='text-3xl font-semibold'>{diagnosis.temperature.value}°F</p>
+            <p className='text-3xl font-semibold mb-4'>{diagnosis.temperature.value}°F</p>
             <p>{diagnosis.temperature.levels}</p>
           </div>
           <div className='w-56 h-56 p-4 bg-[#FFE6F1]'>
-            <img src={respiratory} className='h-24 w-24'/>
+            <img src={heart} className='h-24 w-24'/>
             <p className='text-[16px]'>Heart Rate</p>
-            <p className='text-3xl font-semibold'>{diagnosis.heart_rate.value}</p>
+            <p className='text-3xl font-semibold mb-4'>{diagnosis.heart_rate.value} bpm</p>
             <div className='flex items-center gap-2'>
                   <img src={arrowdown} className='w-[10px] h-[5px]'/>
                   <p>{diagnosis.heart_rate.levels}</p>
